@@ -54,17 +54,17 @@ export default class App extends React.Component {
         <View style={styles.container2}>
           {korea
             ? koreaFood.map(food => (
-                <Text key={food.id}>
-                  {food.name}|{food.price}
-                </Text>
-              ))
+              <Text key={food.id}>
+                {food.name}|{food.price}
+              </Text>
+            ))
             : null}
           {italy
             ? italyFood.map(food => (
-                <Text key={food.id}>
-                  {food.name}|{food.price}
-                </Text>
-              ))
+              <Text key={food.id}>
+                {food.name}|{food.price}
+              </Text>
+            ))
             : null}
         </View>
       </>
